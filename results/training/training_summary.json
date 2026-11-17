@@ -1,0 +1,17 @@
+{
+  "best": {
+    "val_macro_f1": 0.7174514755397108,
+    "val_loss": 0.92660264443543,
+    "val_acc": 0.7627118644067796,
+    "epoch": 12,
+    "stage": "finetune"
+  },
+  "epochs_run": 18,
+  "total_minutes": 2.36,
+  "checkpoint": "checkpoints\\best_model.pt",
+  "batchnorm_check": {
+    "head": "running stats unchanged",
+    "finetune": "running stats updated"
+  },
+  "peak_ram_gb": 1.35
+}

@@ -1,0 +1,54 @@
+{
+  "images_checked": 780,
+  "images_changed_since_preparation": 0,
+  "paths_in_more_than_one_split": 0,
+  "images_per_split": {
+    "train": 366,
+    "val": 59,
+    "test": 355
+  },
+  "test_predictions_match_test_split": true,
+  "exact_duplicate_files_anywhere": 0,
+  "cross_split": {
+    "pairs_flagged_as_duplicates": 0,
+    "exact_sha256_pairs": 0,
+    "min_phash_distance": 16,
+    "max_feature_cosine": 0.9405,
+    "thresholds": {
+      "phash_flag_max": 6,
+      "cosine_flag_min": 0.95
+    }
+  },
+  "median_similarity_to_nearest_train_image": {
+    "val": 0.848,
+    "test": 0.881
+  },
+  "within_split_bursts": {
+    "train": {
+      "images": 366,
+      "flagged_pairs": 52,
+      "images_in_burst_clusters": 94,
+      "burst_clusters": 43,
+      "largest_cluster": 4,
+      "effective_independent_images": 315
+    },
+    "val": {
+      "images": 59,
+      "flagged_pairs": 6,
+      "images_in_burst_clusters": 9,
+      "burst_clusters": 4,
+      "largest_cluster": 3,
+      "effective_independent_images": 54
+    },
+    "test": {
+      "images": 355,
+      "flagged_pairs": 49,
+      "images_in_burst_clusters": 84,
+      "burst_clusters": 37,
+      "largest_cluster": 4,
+      "effective_independent_images": 308
+    }
+  },
+  "result": "PASS",
+  "note": "Read-only audit. No file was modified; results were not used for tuning."
+}

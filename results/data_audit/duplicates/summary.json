@@ -1,0 +1,76 @@
+{
+  "note": "Report only. No image was modified, moved or deleted.",
+  "n_images": 780,
+  "images_per_split": {
+    "train": 366,
+    "test": 355,
+    "val": 59
+  },
+  "thresholds": {
+    "phash_report_max": 10,
+    "phash_flag_max": 6,
+    "cosine_report_min": 0.9,
+    "cosine_flag_min": 0.95
+  },
+  "reported_pairs_by_category": {
+    "different splits, different label": 68,
+    "different splits, same label": 104,
+    "same split, different label": 27,
+    "same split, same label": 987
+  },
+  "flagged_pairs_by_category": {
+    "same split, same label": 107
+  },
+  "flagged_pairs_by_signal": {
+    "cosine": 96,
+    "phash+cosine": 9,
+    "phash": 2
+  },
+  "exact_sha256_duplicate_pairs": 0,
+  "cosine_stats_same_class_pairs": {
+    "50": 0.8139,
+    "95": 0.8959,
+    "99": 0.9347,
+    "max": 0.9848
+  },
+  "cosine_stats_different_class_pairs": {
+    "50": 0.755,
+    "95": 0.833,
+    "99": 0.86,
+    "max": 0.9379
+  },
+  "nearest_train_cosine_for_test": {
+    "50": 0.8813,
+    "95": 0.9185,
+    "99": 0.9343,
+    "max": 0.9405
+  },
+  "nearest_train_cosine_for_val": {
+    "50": 0.8484,
+    "95": 0.8995,
+    "99": 0.9077,
+    "max": 0.9108
+  },
+  "test_images_whose_nearest_train_is_other_class": 112,
+  "comparison_images": {
+    "cross_split": [
+      "cross_split_pairs_01.png",
+      "cross_split_pairs_02.png",
+      "cross_split_pairs_03.png",
+      "cross_split_pairs_04.png"
+    ],
+    "label_conflict": [
+      "label_conflict_pairs_01.png",
+      "label_conflict_pairs_02.png",
+      "label_conflict_pairs_03.png"
+    ],
+    "within_split_same_label": [
+      "within_split_flagged_01.png",
+      "within_split_flagged_02.png"
+    ],
+    "test_vs_nearest_train": [
+      "test_vs_nearest_train_01.png",
+      "test_vs_nearest_train_02.png"
+    ]
+  }
+}

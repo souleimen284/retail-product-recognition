@@ -1,0 +1,13 @@
+class_name,label,group,train,val,test,median_width,median_height,smallest_side,total
+Arla-Standard-Milk,0,milk,30,5,30,348.0,348.0,348,65
+Arla-Medium-Fat-Milk,1,milk,34,4,34,348.0,348.0,348,72
+Arla-Ecological-Medium-Fat-Milk,2,milk,29,5,29,348.0,348.0,348,63
+Garant-Ecological-Medium-Fat-Milk,3,milk,35,6,35,348.0,348.0,348,76
+Oatly-Oat-Milk,4,oatly,32,5,31,348.0,348.0,348,68
+Oatly-Natural-Oatghurt,5,oatly,33,5,30,348.0,348.0,348,68
+Bravo-Orange-Juice,6,juice,32,5,31,348.0,348.0,348,68
+Bravo-Apple-Juice,7,juice,25,4,23,348.0,348.0,348,52
+God-Morgon-Orange-Juice,8,juice,23,5,22,348.0,348.0,348,50
+Valio-Vanilla-Yoghurt,9,yoghurt,32,5,31,348.0,348.0,348,68
+Arla-Mild-Vanilla-Yoghurt,10,yoghurt,29,5,27,348.0,348.0,348,61
+Yoggi-Strawberry-Yoghurt,11,yoghurt,32,5,32,348.0,348.0,348,69

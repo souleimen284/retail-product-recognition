@@ -1,0 +1,47 @@
+{
+  "split": "test",
+  "n_images": 355,
+  "n_correct": 337,
+  "accuracy": 0.9493,
+  "precision_macro": 0.9574,
+  "recall_macro": 0.9466,
+  "f1_macro": 0.9479,
+  "ci95": {
+    "accuracy": [
+      0.9268,
+      0.9718
+    ],
+    "precision_macro": [
+      0.9428,
+      0.9735
+    ],
+    "recall_macro": [
+      0.9247,
+      0.9674
+    ],
+    "f1_macro": [
+      0.9253,
+      0.9685
+    ]
+  },
+  "bootstrap": {
+    "n_resamples": 2000,
+    "seed": 42,
+    "method": "percentile",
+    "accuracy": "ordinary bootstrap over test images",
+    "macro_metrics": "stratified bootstrap within each true class",
+    "caveat": "assumes independent images; burst shots in the test set make the intervals somewhat optimistic"
+  },
+  "checkpoint": {
+    "path": "checkpoints\\best_model.pt",
+    "epoch": 12,
+    "stage": "finetune",
+    "val_macro_f1": 0.7175,
+    "val_acc": 0.7627,
+    "sha256_before": "c64f9f98acf74ba7aa04b17c94c4d55a281e19a6fb513eb657ba192f738b70a3",
+    "sha256_after": "c64f9f98acf74ba7aa04b17c94c4d55a281e19a6fb513eb657ba192f738b70a3",
+    "unchanged": true
+  },
+  "evaluated_at": "2026-11-17T18:15:02",
+  "torch": "1.13.1+cpu"
+}

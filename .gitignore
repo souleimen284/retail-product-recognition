@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Dataset images (downloaded locally with a sparse checkout, see data/README.md)
+data/GroceryStoreDataset/
+
+# Model weights: distributed as a GitHub Release asset, not in git history
+checkpoints/*
+!checkpoints/README.md
+
+# Runtime logs and large review images
+results/logs/
+results/data_audit/duplicates/*.png
+
+# Local / machine-specific files
+_to_delete/
+hardware_info*.txt
+push_to_github.cmd
+.vscode/
+.idea/
+.env
+*.log

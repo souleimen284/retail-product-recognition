@@ -1,0 +1,13 @@
+class_name,group,train,val,test,total
+Arla-Standard-Milk,milk,30,5,30,65
+Arla-Medium-Fat-Milk,milk,34,4,34,72
+Arla-Ecological-Medium-Fat-Milk,milk,29,5,29,63
+Garant-Ecological-Medium-Fat-Milk,milk,35,6,35,76
+Oatly-Oat-Milk,oatly,32,5,31,68
+Oatly-Natural-Oatghurt,oatly,33,5,30,68
+Bravo-Orange-Juice,juice,32,5,31,68
+Bravo-Apple-Juice,juice,25,4,23,52
+God-Morgon-Orange-Juice,juice,23,5,22,50
+Valio-Vanilla-Yoghurt,yoghurt,32,5,31,68
+Arla-Mild-Vanilla-Yoghurt,yoghurt,29,5,27,61
+Yoggi-Strawberry-Yoghurt,yoghurt,32,5,32,69

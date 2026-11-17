@@ -1,0 +1,110 @@
+{
+  "n_test": 355,
+  "n_errors": 18,
+  "errors_per_true_class": {
+    "Arla-Standard-Milk": "0/30",
+    "Arla-Medium-Fat-Milk": "1/34",
+    "Arla-Ecological-Medium-Fat-Milk": "8/29",
+    "Garant-Ecological-Medium-Fat-Milk": "0/35",
+    "Oatly-Oat-Milk": "5/31",
+    "Oatly-Natural-Oatghurt": "0/30",
+    "Bravo-Orange-Juice": "0/31",
+    "Bravo-Apple-Juice": "4/23",
+    "God-Morgon-Orange-Juice": "0/22",
+    "Valio-Vanilla-Yoghurt": "0/31",
+    "Arla-Mild-Vanilla-Yoghurt": "0/27",
+    "Yoggi-Strawberry-Yoghurt": "0/32"
+  },
+  "errors_within_same_group": 14,
+  "errors_within_same_brand": 12,
+  "top_directed_pairs": [
+    {
+      "true_class": "Oatly-Oat-Milk",
+      "pred_class": "Oatly-Natural-Oatghurt",
+      "count": 5
+    },
+    {
+      "true_class": "Arla-Ecological-Medium-Fat-Milk",
+      "pred_class": "Arla-Medium-Fat-Milk",
+      "count": 3
+    },
+    {
+      "true_class": "Arla-Ecological-Medium-Fat-Milk",
+      "pred_class": "Yoggi-Strawberry-Yoghurt",
+      "count": 3
+    },
+    {
+      "true_class": "Bravo-Apple-Juice",
+      "pred_class": "Bravo-Orange-Juice",
+      "count": 3
+    },
+    {
+      "true_class": "Arla-Ecological-Medium-Fat-Milk",
+      "pred_class": "Arla-Standard-Milk",
+      "count": 1
+    },
+    {
+      "true_class": "Arla-Ecological-Medium-Fat-Milk",
+      "pred_class": "Garant-Ecological-Medium-Fat-Milk",
+      "count": 1
+    },
+    {
+      "true_class": "Arla-Medium-Fat-Milk",
+      "pred_class": "Garant-Ecological-Medium-Fat-Milk",
+      "count": 1
+    },
+    {
+      "true_class": "Bravo-Apple-Juice",
+      "pred_class": "Arla-Medium-Fat-Milk",
+      "count": 1
+    }
+  ],
+  "top_undirected_pairs": [
+    {
+      "pair": "Oatly-Natural-Oatghurt <-> Oatly-Oat-Milk",
+      "count": 5
+    },
+    {
+      "pair": "Arla-Ecological-Medium-Fat-Milk <-> Arla-Medium-Fat-Milk",
+      "count": 3
+    },
+    {
+      "pair": "Arla-Ecological-Medium-Fat-Milk <-> Yoggi-Strawberry-Yoghurt",
+      "count": 3
+    },
+    {
+      "pair": "Bravo-Apple-Juice <-> Bravo-Orange-Juice",
+      "count": 3
+    },
+    {
+      "pair": "Arla-Ecological-Medium-Fat-Milk <-> Arla-Standard-Milk",
+      "count": 1
+    },
+    {
+      "pair": "Arla-Ecological-Medium-Fat-Milk <-> Garant-Ecological-Medium-Fat-Milk",
+      "count": 1
+    },
+    {
+      "pair": "Arla-Medium-Fat-Milk <-> Bravo-Apple-Juice",
+      "count": 1
+    },
+    {
+      "pair": "Arla-Medium-Fat-Milk <-> Garant-Ecological-Medium-Fat-Milk",
+      "count": 1
+    }
+  ],
+  "confidence_mean_correct": 0.717,
+  "confidence_mean_errors": 0.431,
+  "errors_with_confidence_over_80pct": 1,
+  "errors_where_true_class_was_2nd_choice": 13,
+  "example_images": [
+    "01_Oatly-Oat-Milk__as__Oatly-Natural-Oatghurt.png",
+    "02_Arla-Ecological-Medium-Fat-Milk__as__Arla-Medium-Fat-Milk.png",
+    "03_Arla-Ecological-Medium-Fat-Milk__as__Yoggi-Strawberry-Yoghurt.png",
+    "04_Bravo-Apple-Juice__as__Bravo-Orange-Juice.png",
+    "05_Arla-Ecological-Medium-Fat-Milk__as__Arla-Standard-Milk.png",
+    "06_Arla-Ecological-Medium-Fat-Milk__as__Garant-Ecological-Medium-Fat-Milk.png",
+    "07_Arla-Medium-Fat-Milk__as__Garant-Ecological-Medium-Fat-Milk.png",
+    "08_Bravo-Apple-Juice__as__Arla-Medium-Fat-Milk.png"
+  ]
+}

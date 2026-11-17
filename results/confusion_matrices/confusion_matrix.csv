@@ -1,0 +1,13 @@
+true \ predicted,Arla-Standard-Milk,Arla-Medium-Fat-Milk,Arla-Ecological-Medium-Fat-Milk,Garant-Ecological-Medium-Fat-Milk,Oatly-Oat-Milk,Oatly-Natural-Oatghurt,Bravo-Orange-Juice,Bravo-Apple-Juice,God-Morgon-Orange-Juice,Valio-Vanilla-Yoghurt,Arla-Mild-Vanilla-Yoghurt,Yoggi-Strawberry-Yoghurt
+Arla-Standard-Milk,30,0,0,0,0,0,0,0,0,0,0,0
+Arla-Medium-Fat-Milk,0,33,0,1,0,0,0,0,0,0,0,0
+Arla-Ecological-Medium-Fat-Milk,1,3,21,1,0,0,0,0,0,0,0,3
+Garant-Ecological-Medium-Fat-Milk,0,0,0,35,0,0,0,0,0,0,0,0
+Oatly-Oat-Milk,0,0,0,0,26,5,0,0,0,0,0,0
+Oatly-Natural-Oatghurt,0,0,0,0,0,30,0,0,0,0,0,0
+Bravo-Orange-Juice,0,0,0,0,0,0,31,0,0,0,0,0
+Bravo-Apple-Juice,0,1,0,0,0,0,3,19,0,0,0,0
+God-Morgon-Orange-Juice,0,0,0,0,0,0,0,0,22,0,0,0
+Valio-Vanilla-Yoghurt,0,0,0,0,0,0,0,0,0,31,0,0
+Arla-Mild-Vanilla-Yoghurt,0,0,0,0,0,0,0,0,0,0,27,0
+Yoggi-Strawberry-Yoghurt,0,0,0,0,0,0,0,0,0,0,0,32

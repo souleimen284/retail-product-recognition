@@ -1,0 +1,9 @@
+true_class,pred_class,count,share_of_true_class,same_brand,same_group
+Oatly-Oat-Milk,Oatly-Natural-Oatghurt,5,0.161,True,True
+Arla-Ecological-Medium-Fat-Milk,Arla-Medium-Fat-Milk,3,0.103,True,True
+Arla-Ecological-Medium-Fat-Milk,Yoggi-Strawberry-Yoghurt,3,0.103,False,False
+Bravo-Apple-Juice,Bravo-Orange-Juice,3,0.13,True,True
+Arla-Ecological-Medium-Fat-Milk,Arla-Standard-Milk,1,0.034,True,True
+Arla-Ecological-Medium-Fat-Milk,Garant-Ecological-Medium-Fat-Milk,1,0.034,False,True
+Arla-Medium-Fat-Milk,Garant-Ecological-Medium-Fat-Milk,1,0.029,False,True
+Bravo-Apple-Juice,Arla-Medium-Fat-Milk,1,0.043,False,False

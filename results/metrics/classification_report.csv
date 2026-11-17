@@ -1,0 +1,16 @@
+class,precision,recall,f1-score,support
+Arla-Standard-Milk,0.9677,1.0,0.9836,30
+Arla-Medium-Fat-Milk,0.8919,0.9706,0.9296,34
+Arla-Ecological-Medium-Fat-Milk,1.0,0.7241,0.84,29
+Garant-Ecological-Medium-Fat-Milk,0.9459,1.0,0.9722,35
+Oatly-Oat-Milk,1.0,0.8387,0.9123,31
+Oatly-Natural-Oatghurt,0.8571,1.0,0.9231,30
+Bravo-Orange-Juice,0.9118,1.0,0.9538,31
+Bravo-Apple-Juice,1.0,0.8261,0.9048,23
+God-Morgon-Orange-Juice,1.0,1.0,1.0,22
+Valio-Vanilla-Yoghurt,1.0,1.0,1.0,31
+Arla-Mild-Vanilla-Yoghurt,1.0,1.0,1.0,27
+Yoggi-Strawberry-Yoghurt,0.9143,1.0,0.9552,32
+accuracy,,,0.9493,355
+macro avg,0.9574,0.9466,0.9479,355
+weighted avg,0.9541,0.9493,0.9477,355

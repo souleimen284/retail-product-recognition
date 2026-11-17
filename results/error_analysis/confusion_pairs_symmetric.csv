@@ -1,0 +1,9 @@
+pair,count,same_brand,same_group
+Oatly-Natural-Oatghurt <-> Oatly-Oat-Milk,5,True,True
+Arla-Ecological-Medium-Fat-Milk <-> Arla-Medium-Fat-Milk,3,True,True
+Arla-Ecological-Medium-Fat-Milk <-> Yoggi-Strawberry-Yoghurt,3,False,False
+Bravo-Apple-Juice <-> Bravo-Orange-Juice,3,True,True
+Arla-Ecological-Medium-Fat-Milk <-> Arla-Standard-Milk,1,True,True
+Arla-Ecological-Medium-Fat-Milk <-> Garant-Ecological-Medium-Fat-Milk,1,False,True
+Arla-Medium-Fat-Milk <-> Bravo-Apple-Juice,1,False,False
+Arla-Medium-Fat-Milk <-> Garant-Ecological-Medium-Fat-Milk,1,False,True
