@@ -564,9 +564,13 @@ python -m src.check_duplicates                # report-only duplicate analysis
 
 ### 3. Get the trained checkpoint
 
-Download `best_model.pt` (about 6.3 MB) from this repository's **Releases** page and place it in
-`checkpoints/`. See [`checkpoints/README.md`](checkpoints/README.md) for the SHA-256 checksum. The
-checkpoint is deliberately not stored in git history.
+Download **[`best_model.pt`](https://github.com/souleimen284/retail-product-recognition/releases/download/v1.0/best_model.pt)** (about 6.3 MB, from the [v1.0 release](https://github.com/souleimen284/retail-product-recognition/releases/tag/v1.0)) and place
+it in `checkpoints/`. See [`checkpoints/README.md`](checkpoints/README.md) for the SHA-256 checksum.
+The checkpoint is deliberately not stored in git history.
+
+```powershell
+Invoke-WebRequest -Uri https://github.com/souleimen284/retail-product-recognition/releases/download/v1.0/best_model.pt -OutFile checkpoints\best_model.pt
+```
 
 ### 4. Run inference on an image
 

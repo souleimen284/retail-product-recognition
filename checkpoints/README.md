@@ -2,7 +2,12 @@
 
 `best_model.pt` (about 6.3 MB) is **not stored in git**. It is published as a **GitHub Release asset**.
 
-1. Download `best_model.pt` from the repository's *Releases* page.
+1. Download **[`best_model.pt`](https://github.com/souleimen284/retail-product-recognition/releases/download/v1.0/best_model.pt)** from the [v1.0 release](https://github.com/souleimen284/retail-product-recognition/releases/tag/v1.0), or in PowerShell:
+
+   ```powershell
+   Invoke-WebRequest -Uri https://github.com/souleimen284/retail-product-recognition/releases/download/v1.0/best_model.pt -OutFile checkpoints\best_model.pt
+   ```
+
 2. Place it here: `checkpoints/best_model.pt`.
 3. Optional integrity check (PowerShell):
 
